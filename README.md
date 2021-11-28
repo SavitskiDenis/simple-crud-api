@@ -5,7 +5,7 @@ Before running applicaion, run the `npm i` command for install required packages
 
 The application can work in two modes:
 * `Development`. Run the `npm run start:dev` command to start application in development mode.
-* `Production`. Run the `npm run start:prod` command to start application in development mode.
+* `Production`. Run the `npm run start:prod` command to start application in production mode.
 
 # API
 Path `/person`:
