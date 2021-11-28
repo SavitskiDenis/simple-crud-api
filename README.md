@@ -22,6 +22,6 @@ Persons are stored as `objects` that have following properties:
 * `hobbies` — person's hobbies (`array` of `strings` or empty `array`, **required**)
 
 # Testing
-Before running the tests, run the application in development (`npm run start:dev`) or production (`npm run start:prod`) mode.
+Before running the tests, run the application in development (`npm run start:dev`) or production (`npm run start:prod`) mode. If the application is running now, restart it.
 
 Run the `npm run test` command to run all the tests.
