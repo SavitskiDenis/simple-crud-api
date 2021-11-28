@@ -77,6 +77,7 @@ personRouter.POST('/', async (req, resp) => {
     personData.set(id, payload);
 
     resp.setHeader('Content-Type', 'application/json');
+    resp.statusCode = 201;
     resp.end(JSON.stringify({
         ...payload,
         id
