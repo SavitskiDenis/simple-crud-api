@@ -20,13 +20,12 @@ class RoutersManager {
         if (handler) {
             try {
                 req.body = await bodyReader(req);
+                await handler(req, resp);
             }   catch (err) {
                 resp.statusCode = 500;
                 resp.end(err.message);
                 return;
             }
-
-            handler(req, resp);
         }   else {
             resp.statusCode = 404;
             resp.end('Not correct api path');
