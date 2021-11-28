@@ -28,7 +28,7 @@ class RoutersManager {
             }
         }   else {
             resp.statusCode = 404;
-            resp.end('Not correct api path');
+            resp.end('Not correct request');
         }
     }
 }
